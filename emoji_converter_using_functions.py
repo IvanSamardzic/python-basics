@@ -23,3 +23,13 @@ def greet_user():
 print("Start")
 greet_user()
 print("Finish")
+
+#function with parameters
+def greet_user(name, surname, age):
+    print("Hi " + name + " " + surname)
+    print("You are " + age + "year old")
+    
+#function callin
+print("Start")
+greet_user("Giovanni", "Arcadioni", 23)
+print("Finish")
